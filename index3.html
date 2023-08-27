@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+		 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+		 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Khanka Coffee</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="#">Khanka <span>Coffee</span></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+				<li><a href="#aboutus">About us</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+		<img src="https://i.pinimg.com/originals/61/aa/22/61aa224bc2286fdd98709c12698826df.jpg">
+        <div class="yeah">
+		<h2>Khanka Coffee</h2>
+        <p>Would you like to start the day with a nice coffee?</p>
+		</div>
+	</div>
+    <div class="menu" id="menu">
+        <div class="menu-header">
+            <h3>Menu</h3>
+            <h4>Khanka Coffee Menu</h4>
+        </div>
+		<div class="">
+        <div class="menu-content">
+            <div class="hot-coffees">
+                <div class="hot-coffees-image">
+                    <img src="https://t4.ftcdn.net/jpg/05/68/26/65/360_F_568266596_dD05LhRcOQvR9n3GeFidtEtjKssMXCKL.jpg" alt="">
+                </div>
+                <div class="hot-coffees-body">
+                    <h2>Hot Coffees</h2>
+                    <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat!</label>
+                </div>
+            </div>
+            <div class="cold-coffees">
+                <div class="cold-coffees-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxY4LgjJrhHGjypug75qsEYXIiSUtl46yTaA&usqp=CAU" alt="">
+                </div>
+                <div class="cold-coffees-body">
+                    <h2>Cold Coffees</h2>
+                    <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat!</label>
+                </div>
+            </div>
+            <div class="frappucino-coffees">
+                <div class="frappucino-coffees-image">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgVFRUZGBgYHBsbGhkaGxseGxsiGhscGhsjIiIbIC0kHB0pIhodJjclKS4wNDQ0GiQ5PzkyPi0yNDABCwsLEA8QHhISHTcrIyk4MjIyODIyMjI7MjIyNTIyMjIyMjIyMjI2MjU1MjIyMjIyMjIyMjIyMjIyMjUyMjIyMv/AABEIALEBHAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAECBQAGB//EAEEQAAIBAgQDBQYEAwcEAgMAAAECEQADBBIhMUFRYQUicYGRBhMyobHwFMHR4UJScgcjM2KCovFzkrLCdLMVNEP/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAsEQACAgICAQIFAwUBAAAAAAAAAQIRAyESMUEEIjJRYXGBweHxE0KhsfAF/9oADAMBAAIRAxEAPwD5mKjLUxVgtMRVRRVWoRKIq0AdkrslEy8Ko+lAHLbNXGm29A9440g6nQgiPMb0U6b79KExtUEUGrx0qEI4z0qS9MRKCihPsV3CgrcVWgnKedJugSsK6dRVCaI6ARsZ1BmqyNgdeVJSTVlOLTqtkKBxoqpVlSR1rc9luy1u3O8pdUAJQT3zwWRsNCSekcZA5JK2KMW3RiWMC7z7u2788ilo8YGlbOD9kcVcXMLYAkjV0Go3HxSDXruzMffa81qwiBQMrJGUIF8NiJ231qMbhsVhGVw8Ix7wGqnpBFcMvWSW60rv9D0F6FP22r1X6nk8T7H4xBPumIHFCrfJSWPpWRdsFSQRqJkHQg8iOBr7zbAZQyRqoYCf5gD+dZvtB7M2sUuvduLOVwBJ02b+ZdvDgRrPap2cDjR8SCUN7U1v9tdkC0RkuFwZHet3LZBGhEPoeOxO3nWZ+FaJKmNpgx0150RnGXTHLHKKtpiDW6qVpprdDKdDVkCuSqEHpTLry5UNvCgATAUJqYC1QpQAAVZko5XoKqyfKgAFU936UVhQmoAoya6VWKMvWoKUACAqQtEyV3lQAdVqwqgmrSKQF1Iq2cVQA1wQ0AFR6tknWqKBRUY7agH50ADNsTv6iiraESSKsBVWQzz86AI0nTWKPbynf6frXIDsAB4URbXExTAj3ZMcI60F4YEFQfHWmc24jfy9KqlrWSQBQAnasAfCv1iubCZmBEqeOUkU81sDhrQmUc/SigtnWbOXj+9ej9k3i6FUkMVuMY0jLkA9cx9DWDhsK7sESWY7D72HWvc9oW8tpLWFUJcQW3e4kKAxSSWdoBkGIYmQ+3drHM4qOzfBFt6L+z9i+mNvWzMOucuBsWKuJnoSPSj4sXjde2b5e0FZn2YplBIOpgGQBEyZOlHwgxNzOvvbXe93nIcyAJBIyJlM6gx02pHDZGZ8Mji0MxWHmHOpnQktMTJrjaXGvG/4O5e6fJumkv5Adie1Ye/ass7KuiSAVzQwyjXUaQPKvV4nt67bJaFuWwYJX4lEwM2xB6kb14LtvsE2WyOJI1BGx5EHlXq/ZA+9tTcJYgm2xO7KQN+ZhiJNc+Obye2Laa/Q39RgjjislJp/r5Ro4XEfiLoYMUSJIAkMQxb4v4dST11E1qYp7VsxcZFDCIYqJB3He3FeS7Dxj4e/+FuyEYlRmEfFop8zA86Na9mmuuue8XFvRss6EfwhiTrv4COdVgyZFGlt3u9GfqMEFPbqNardoX9oPYq24NzC90nX3ebuN/Sf4fXL/TXzjE2CpYGQQYIO4IMEc5r7Rhrq2QyLaKogLfETooJbfjA9Y8R43+0js4JdW+ghbgh9tHURw/mUf7Wr0seTlp9nmZMfHa6PnzoedCcEcxTLtrVJ6VsZAFLRwqQp40cNV8lAC+WKpFMMtVCa0ALMlBy025HlQ2tzrQAvFXFdEbiqER4UAXLVP3vVM1RIoAudeNSo86AMQoPekHnGlWtXQdY9aSewapWNCrIaB7yiINKYg6qNZqFXlQmMdRRhcXQKTr0M+cbeFJunQ0rVhEaN6KtwRQQI1o2nKaYBUYbjzqTpx9KVckHTau96Dvp4UAPPbYEhgVYbgiCPEGutW+B1413vSe8xJJ3JMk+fGrBzQB15IEyOfMgTGvI/lFAKn0pm1ad3CqCxbYKJJ56DwqHI4T5UAe19i8DbS2LjkFnOx5HSPDUE+lDPZuKu3CUsgWi4zFzl0QKihRBJACnXw1qvY0tbsvJATux/M5UKh030I0/mWeVe0Dm1bUHQyd9wNWJPKuOSuVt6R1QlxjSW2YWHwpt4lp7qC2AeUggxpxg1a/2O+JZSoVLaurAnSMrZswj4m0347TQOysb+IPu8wDu7Z+YAMmOWhyj9q2vajHrbtNat/wCIV0y8NOHLSscbUk347/Y6Z3BqPnr7GJ7eY+0xVLZzOoykggiOXjTfsTgLiWhmEZ3DDnED9KwPY61ae8GYBs2ZVVtYaOPj9TX1LDWQNan0uPnN5H8zT1mVY8UcMelu2JdpdhW705iwJIYEESpHFcwJXy0r5t28cVZd1znKGbKFfYZjwk5TX1u8eIr5v2n2urXXzIXtsZyOSGUwAYI1UGNtQfHY9dGEUn5D/wA6c5Sae0l/1DPsl2ZibgL37t1VMZFzGWB46nQeI1msf2rxbm09t2V8zKFIH8hJmODRMjryivonYN0PZDKuUbZeUaRXh/7TSgu2YENlLPHEZgF8+63yq8eBS4Ti/q+9mGX1Luaku9LrR84ZOZNCKGdDpWjftwY06UH3Y8K9I88VaAJy16H2c9nDirL4m7ca1bQNlCAEtkmSS2y6RFefx8BTW/ifZ/E28El+7eKKgVUw65ohtCWIMZjJY6HlUsEYMg0JyNvWpDR41LoAATxqiQUDmKqbkeFSwJ3+W1UCGefWgoq61Qii3EAEzpvwNKs89DSA5qialW4ET1n7FUoAZeDU20FWyTqR6VbLQBzKOAirKnWqgdaIq0AWRatNXS2YJgwIE8BM/p8qkqYjSJ6UAQrA6b0ZD9/ZoSqAN9/vhRA07fSgBg7QTmEQAZ01nT5+ppVkXlHWr3EYLmEwPvbjV3xKXtUJYrCmQBoBprxaolJLsuMG+gVgwDJ0pu2wOnPjQrSZeG3PcU2HUGYgctTw6VaIZS2uUjWI5dfnVnWIMEzI06frpQS4AExvuCddI2P6UyLsrlA14Hefv8qAPaezK5sJAJX41MbwGLesNWV7QYi7YtgrdYpmAiI0KvmHUdKf9irs2nTSQxPqBS/txhme0qWxLKQwEjUAFSNeOs+VcuWN2dWB1JWZXsv2wbOIt3LiP7twQGClt9zp1HoTWr2Jj2e8vvDmLNqT1/es/PGGS3ctwYEFSDBOuuuhnlNI+z973bk3GJKtKlQDpEiQTXOoKNJM3yTcm20fSrXs+odbi21tmZJ2B4zA48Z9QeGz2djyFIdWEbGDDDgQT9+teXHthnJLrC7AfxfpTnZXbK3zmZoS24BPAzMfTfxraKjB+3tnPJynH3dI9gtwET/z8q8v7T2cKVa+4zFBDKNDqYBIMGOHnW5hscpYgEQKR7S7KtYhibiyCACDsQpzCYPP1rTNj5xrX5Jw5P6c09/j5Cvs3ixbsW1bdlLkcYMkaeEV879s8Y+IxGcCRBRVHAKxj6+s19TbC21+FQCdzxOnjpXyn2yRTjXYZ1KBQCjZf4AeA/zUoY5JRUXSX+Snkg3KUlt/4MFrkweMAekCoNzjVksgCIIk8Tx8ah15flXUcghigzOihcxZ1hBuddvPavS+0VjHWspxd1WW5JW0jHLby9MoGgaJE1idk32TFoyWzddQTbtqN3IhZjgJJPhWl27jMXccDGALcQaIAoAVtR8JO9T/AHF+DHZI10qjrMTQcTjAjQwInjwq1i+G1JXyIM+XCnyV0JRbVlzbG9UcQPGaa0iJk/Ss/G4jJEjSYJ5U2JFXB4+lBIFHNxcoKsrSeG48fGoKT3v4fnI3++tTF2rKaadMXIFTlFXNvnQ8oqhDqgwDprOk6iOYG29UYfvULVhNSBdakk1RaKppgXtTzo5EAZTO0/PnSy3Kk312Bk8tKTdAk3pB7innV7aQNBPEnhVLdyYjbcURSONMCxYzry15elAuYBGYNJVuanWjfwiTqOPnP50QL+tHYdFLVjWSWYncsTNNWlGzen60FTrGbXw19OFWwwzaqRHMQN+OtK0tD4tqwj2Ax11j0FDRADlG3E04iabjy/WqKmQyrAE9ef5VRBrey+J93ccCeB14jX00r0+IZLgnQjrw/evD4K4VaSdK0ruLZDmUxO/px8648kqk0dmOPKKY9irSBSAIrKwGEzO56j6UG720dQ6f9v6GnuwcckuToJB9dOFc05LkjeMHxZp47sD3tom0ctyO6ZENqJB8pE16D2e7HFmwtswSRLg6yxHeHhwqcHibcTmAHXTfxrVsOp2INdUUrvyc8m+PE7s/AJaWEUD1J9SSadBpIdoWsxQOpYfwjWofGEAkAQKrnGtE8JFsffdAGAXL/ESdfAAV8m7dxROIujiW+gA8PWvbrjrl0M1xtBoFGig/n4mvnmPuf3txiP8A+jnX+o0YMim210GfG4JJ9iz3CYBPw/8AFBZjB+/TnRC8igYkwNfDh9K6jmHvZPttcK9y6LTXbjQlu2szGrO0gExoo0FGx/av4q692ApJXNbzAsugEawTtyp32L7ZwuBs+9uBmu3mYKqAFwisVBMkBVLA8dfKvNYq0rXGcjvMSSRIOpk7VmrfRppdhMSupBUeB1pF1UEgIE1PdEwJ5T/zRXgDQUErrVr6kOr0EDDgMoEdfP750NmnfWPSqM0acD8/3qpYDUaigRwyjZQD6VAukEldZ3B41Mg6ffhQLoIOnlQUHF0HVf8AtO4jy+4qkjlQA86nQ8/1HGjZRxIn726UAMK/dI4yDPKAZ4dRUB+HOg27oYAjjRlPTXp961IFgKsBQ5qy0AFyrxBNJYrATDIxDCf2iKdzAbDTrVhcBEyOA6k9BSbS7Kim3oUtNcBE2z5Hun8600aNxS4edjqvPhzFIubgJJAbXRsxER05UulpD7e2a7PxG08aMjdZ+/3pIXHCgwDI+msD0+tWs9pIYEgNrMnbx6/p1FDmroFjbVhMRhiTmVmVuBFLfhr4KlXVgs6EQDOpnL1p1bgPEVb3oFVxTJUmuhZsffWCyDLInIJ8d6eTHWmMK0sN5BB35ECPU0rbxC3AZcKZgd6D8+FThjnuMhdGCHXXWOnA1i2lKlpI6Em48pbb6H7zgKWHAifCdeNOteDqDzH5il8RbBtNA/hMCDw+u3CsnDOSmUNBEj8/sVj6jfuRp6dNe1jN/U85kVp9iaIZ6fIg1joIBMxTOCxIVWjgP0/WuRO2jrapHs7DjKp4QP8Aaf0Jo7vltzMxtrwJX9a81gO0VNvK/MwfGm8T2gMiRsBB5brx86UslSHGFo1fZ62VfwH6TXpsUT7tq837P3SxXmBr4bfWR5GtHtHtEe7uGCMoB1B5/ttVYX7Hf1Iyq5qvoLH/AArgGveA9dK8LjbBMu2gckjrrJjprW9gu2Q9uANFaSecQBvzk15b/wDGYy0Ld9yQLglA6hhAPCDoNZjqK19HyrRj6rjfuKJZymdI8aR7Qu6RWoASGZ278g5cvxTObXZY5daxO0mkx9K9K9Hn0r0e77EwGCsYD3l/3TYi5bZ0W4VLaglAittw1HGvJBxEec/f3rXp8Z7Ii3g/xV2473zkAVYyDQKFiJaEHAjavJK23HgZ1jxFKHQS7LWrgufDqZjTersAN40+/vwpNMGQ2dSVP+Ux04UeI3brJ500newbjSpbK3j0oII5Ac/3q7Ox4H09daZGDgTcDKTBXugKQdZLFhGhB0Bnpxokzb0jVQTGsD+H9RTyfhmts2c5o0AAkNvtvHnzqlwCdgD0+WnWl86+fGdIrKUOTW6NIT4p6sr7gZSxYAiBl0za67cuvhVfeEaKdOpFXa6dAOHPX6npV0UxrE1oSBtiBFEFBLRVHxSg7hhxI4VFjSbGwalW/wCaCjzRFP3NABww86Wu4VGM7HmJ/Kr5qtnoA63bAECrOAd65l0LR3RueU1IccOW4osdMEt9wVtlwqAySVkjj+dQ7W7ZzrFwExsA3iI/MUS4gbQ60O3gUHCpcN2Wp0qL4TtBGaIKztpqPnrTnvdIg+Bmk2wa60scKVM5iVniZp0110TyT77H8PiBbcu1rNyIjTfXXjrTNxUxDhhbYEDVgYPmRofnS34m0whX2HHc+lO9l3rtv/DKMhkgMDoT4b1m4pvlFb+ptGTiuMnr6DWHtlFyZ2YbCTtP015Vk23ys45GRWraDAgnUzJPDese6kXXHjSyLQYnthcTie6ans3EdxyRoAfy/akrr90jkKv2c/dbWBt99dK5uCSZ2qRpdn4nuQdZnUa7fLr9zWnbaEBI29CRyI+nhvNYWCO09OE8PH99orbtpmWdiRH1Gv8Ax+RrmzRSkdGPcT0/s9eEPcnRFOgiPhJJM7nb9N6Sx2NLYPMI775dhEICW+Z+fmSdm3gmHvDQf3bQDO7d0b+Q34CsDFT+Gt67Oyx0gHy4es8aptUuP1M+LttlsOQls7RDsf8AShP1Ar0/tB2/Zudl2+7nLZFWNDbKABz5bRxzCvJXgTbbhFq56smQfNh6Vlez1yblu3cM2/eKWU/CQxCsNeYAnwrr9Iqi/ucPq3ckhl309I+tZhf++Q5S0Opy8WhgY89q+if2gWLSXrF5Sga4CHQ8cgGV9BAGyny5GvLpjk/G23uIFSyGdgNTKCQNY1LZY4ag10Sn7uNGMcft5WO9t2MdbyX8ZcIS40C2GJ93oSO4O6oEbyTrrqaz8e1kge6OckBiwB3nUHWNuVOdve1T41VBtqioTlCksTmA3J04cAN6wxJE1UY+67Ic/bVfk5gfI7eA0412dV+IwfmeFVeYgNz+/vnUdn9o5O5ctZ5nz8+FGSfFaVsMePk9ukGXBkrmIJXmf19Kq6R4+Mmq2MYcrI7ELJKqdhxidtB9OdLpiM5IRpjTlvyqcc9PkVkx7XEK9vT8uNURROvz/WjXbDiQwMqYI47Trz0PzpctWqkn0zJxce0MXgCZAEdBH1n11oDo08ukx8uFWIMTBih0yRWg/hFnajupBIO4++FRNQWWQRVpqgaoLUAGmuNCzVwagAeItM3wt5c42omEVlEMZ/KpYxE8fsVy3KWhu/IyL6RqwB4BpE+YqPxA1jWOI1HrApHEIG0361TFY0yQqhR3dOijTyqad2UmmqZqtjLWTVjn5bRUW7wbRdfnWQGDRI1q4dlEJ6U0mvIWnSo0xbSfhE+FMpe61h2brzqIFO4K8feaESQYnnHypuVKxKKcqRrJiCJoHaKgXsw4/nrSt3EFdNjsQTPmOY6012imiPxZbZj+pd/Ws5y5JM2xx4yaErg+IDcih9nHf9eNEgz4iqYJYY9Kw8NHXHsbwzac+H5bV6Dsy7m05RpP3+W/lXl0fKT1kU/hsUVBKmDG4iYIgjmf+a582PkjeGTie3S6iIyMBDwCdJ0/L61gY5e/A+EHQeO/rlHoKw8RibhiW5RE6zrw46xr1HCmi7LBmZJnTlpH3yNRD0zhHb2S8/JmhiboWzcLSO6onlmuIP1NIHK1sWkdTmH8wJMCZ7okARyPTWm+2sSq4Z1AzSwYyBJHdA8IJY+dUwXZNpFBcAMVkour7A/6T4RW8ajDfzMtym6+Q12RmxmMsWMQxDWkAcg6sELHyLBlnxNPdl+yq2+07gxLBrSAXEL/AAsrNCAzoQNRH+XlXi+z+1RZv2r1ssWnvyZJB0I9PmK9wna+IxGOf3MXU93lylcyKiqrzEjUkgiCDLAV2K6vycUquk9B/bDtVWxMW0LoiIsghBIZmIhgGAErtptXkPes5aFAzE6AAa7xO/lPCg9pPdZ3vC63e5DKBAyiBMgQPGlcBi7ttFOVGHeK5iZ70ieo1/WoVxuSq2aSqSUXaSLYC2yX9FDrMsrSNjtpRe1ME+fMSEbVgABHeM7fLyoSXmAAurAMnOp+HMZJIG/31ouOFllzC+2ZdmLST5AUc/dsfD20n1+AJa4wCllLTpIAAOscJqiJbRCXUhwQAVgHMeM/y0dmuG3FzW2pGoEQZ0zHc+tDxmHQjKbmYSCCDMEjbqRtxp3eukJrir7Y1g7DwTnEOWGd4kEgT3vIelV9yImRA38NP0rMtu6dxszW5zARpO0kb1qXHRiPdqwER3pkn9PGrgnGX3M8jUo/YEq7gHfceEn9fWqHwq7Nr+vDzoixzH3z61scxledSBVlEToDII1HP6HrXBKgsrXedRcYrrEgb0M4pS0gQNsvLr1pWNKwprmq4WoZPsUxCWJvux158BFMW5jU1F+8C3cVgNoMz4knj0qcTjwx+HLHCKnrpF1fbK3Lqgbzp9ao6jeqfhc2oO+u1Et4YinRLdg80VfMau1o8KHkNAi4aqtqIqCtdQALKxOpJ6kyfKvW4m2Tg7Fyf4SP+x2T8vlXlwda9AL2bAos6pcceTA3PvxqJ9GuJ+4VfYGgWPiMGKYRZSaEi9+uVPs9CKBH4jPM01YOh1il8UhDmiYcSGPIU5bVkt06KXXgDUSOenTSenLlNO+/zBAQN9fprHT6CsrENsJ+/sU/gUJgRsD+VVJ1EiK2aXalsPmXYRbAP+nN9aqO2btu2F/u52z5Yc8OJ360btG2yoLjRlZoE80RZ9JHrWbdtB0YlZAEnhpzFaY4xcFyMMk5qbUfzQvd7JZUN8MO7rtIJ5TOprf/ALO+0WsYls4ym4AoUgiY1MT0M+Veds2Ii4jqyp3sjNBkdDuantLFvK3cjKc4cMRyAgfLjVW7oHFcbqv+7PSe0PaNq5i7tpe5ZZiAYAGf+PYTlLSRPXnWH2fbCF7bKVBYqLhVioUTMacSP91bPsTgrOLa8Lw7zAqh4qWOYMP8y6AHlNJYbBYgXXw7sgdCVMohMRIaWGxBBFTNUn8h4pcmk+1/oVxTQ5KkG0ToCDyg8oB3gzwpU4EOpKptJ7ulcl5kDWmAIUnvTvAgcduMVHZuPdMyliFYZZyyI6xrw4VSbS0v3JaUpbf7EWMLeKZUYlDqVOxA15fWm0xim01sWsjz8Z4RwA8avfx4tAC1dGZjHdAChToQSSY+tUvC3lXKxL7nj68BzjU7TyqYrk9oqXtXtf3Kh2gBmkgQCeQ6edQz9aA2lSHmuro4229sI1yOZ8N66FOp+hpHFWWJzKYIqUzcYnoTr1qJN+C4pNbL5qkGjHFZF3YCB3Qqz5yKBZuZtqmMr8FThxrZcmhfhkOsCjAVwFWZkqIqVNXCcOetTkoGCy61DWQdwKKgNXZNfGgAaoI/eJquWjhdI013+UeFVAEjbWkBRbRYhVEkjby1oF2wUMOCOR3466ffnTfuirasU5sI0FBxZK5WBzqcwEnfnrzHI86zcndI2WNcbYnc7rSOEdRz/PypS9iSzZojoKavYqRAQjzqcNgxcJOwG5/biad6tkVvinYurit3sS8ptXEYSJB8Mwif9vzrExdoI0AnpNM9mYgIxk6OMp6GdPvrRL3RHH2y2P8A4jIMrDunZhsf3pX3oziDWtgbgDFTBRviUgFT5GnLvs9beWQsn9JkehrnUYnXHI/Jm4+13gOJE01gMEMrnpUjsJy0m7JAjVDMetOYbsR9jdJB3CrH1NYyxyqkzX+pG7Z578HmbUwBXsfZj2WuXnkSifzEaxPAc+u3jTnZXZtq2wOQu0iC3eOniIHpX0JO0Ldq2F0DlSckgGB8TH+VBOrHQacSAd442/iZz5M9aij5t/aZgFU2cNaBAtoSMsnVyJ6k9wSTzrxy9oPatMrZcykBSVYt13ELEA689jWx7QdojE4o3BmKiFURuFLd4jhJJPQEDWKy/aTFi4Ue2GVQAh2LabgxvE/OtOSbUa0QouMXK9ifuLbIgVodjJjYAbzzJ4CtXGu/4dkyyJABYQSdiAOgE8NBWRdZPw9sKe/mYsRIIgACZHEERHLpQHxdxspZmYLO5McCdtthqNdKTjbX0LjKk18zU7Hx7Ya+AwykasJGgGoJ+9jUYBL1972LCs4QZ7jQrHvHUQ25Gpjgq8orAcM5LasSZJ4k7kk863+x+2zbti2tgG4uaHzGYaSe7xOp1B5aGtJbWzCNxloDjb4uOHuBgvBoABP+bJ+XOuxVwpaC2iWU/ExWCdvhnXzgeGlQCzKqPmCM5ADCAp6AHYVTG2HQ5LZV1VgVYHUxtxgioindI1k1TbHBYQ2e+hzzoCJ05z40vlCgAbciOdN/jMyH+7yu2jOWBMDgI2H31rKxOICmOJ4/WrxppbMczUmuIV151LDlULYNvJcHfDfw7nTw4Ua9DSwGSToN46VcZWTOFLvYuZquvX51c1GX71qzITW68EFZJ4nhTmHw/dB4xJjxAqRVwtQkkaOTfYO45USBQrOKVjE5Op2mmooRsLMwKGrFGVB7DhhI5UTNQ0AGwq8CmIJh2V5GYCOf6V13usEOhaI89jSb4QE5lZl5Qf2qjYTPqzkkaTPL6VG77Nfbx6D4qy+mXUGYI2gaelJPebIUywZnMT9Kn8PdQyDmEydd4omJt3LpUsVBUQIEcem5oSd7DlGrWg9i3fKlSRLDUbtGnpsKTa3kiQ0b67bwNfOmbbXrSnv6HcjUx4namOz7iOAC4Gmx4Dz3pdJtlXyaSFLhA2g6TpmMeJIE1odh+4YOHyi4T3M5OU6bdDPHfaqs9qSJ0HHYHwneoHZy3BmAHPT9tqU0nCm6CDanaVge2cCi3JUkyAcpYMVPLMCQf3pfsy4qsVZSWY8iTHlR2tATr04eHHai4TDujlmOVcu+50PCJ+U0pJKFN2EW5TtKit4NbYkqfd8DpI5T0pxcRdCG4jjKNzI09anE3c9vIgDJOZs3xsAJiRttzpfEJbW07KGUgZQCCEcQykjYkhjpO2Q8+7lHZ0S1b8DOF7VxX8IzA8coPz2qtztjFK0EZf8ASB9aJ2dcQWiwYtkVcyEgZwOWmjD+Ya7AmKQxGP8AfOMncCk7nMzFuBngI0Gu51oV23WgfFJLyPt2neVZuXsgOpC6uR4KDHnAo2D7VbEo1gHLbY98sYe6f87Ay0cFmBWW9w5skIxOzLmneDImB960NsGi5LiglWGYhZmRMAajSRv41a2qvZm1UratA+0cP7i4wt3DlB8Y6daNhL1y/oupAgExw6CAKBnVrrIxTLO8kqfMgH1q2OsJaYm05ZQASVOmvjrxFXdNLz8zOm02+vkUs3lQ3FuKA4MLoDlIkzvzA4EEb1dHYAO8wNM6jcmSFIMCJ4cAeFKPhc6m5rAgnw46860beEtNbPegAAyTq3MKBxmBJ6+SdFwTXYm2FIOZWAzSwU8tSdeAAB1PKtA4X3iNdusoZQAIgNpqIA9ZPOsrBXQJDEiYBOUnujUjxMAeE86cs30v3te6GIAk7AaCfKlJMcZR8A8PiEYKH1YaMGnvDmDwYflFNeE0LE2grkBgwH8Q41Kk9a2hFLa8nNkm3p+AyHeh4qyjDvDw51AY8KXxllnGh13q2ZoobyWxpqdvs03beUClQCZKkEGdNjB+orNtuApRk70gzOsDh98q64hA7mnMcfvWs72bOKq1seBB/Oo7vWl8K5mSsEbE6AeW5P50YvyAj76VabfZDSXTJH361ccK6upAWNW411dQSSu/p+dDv8fE11dQMrZ4eH5Gmh8beI+grq6s4/EbS+Etw++VXO/30qK6tTEtc+FvD8q84fjHl+dTXVEi4dnp/Z/4b/8A02+oofsr8Nz+k/Wurq559s6sXSIfYf0ULs3ax5/+L1FdSXQ38Qf2V3f/AONif/qNIdv7eQ+q11dVrsmXwiHZ2/kfzodv/FPifpUV1aeGZf3I1sP/AIi/0H6GmrXwW/8Apj/3rq6sF2jofk89e3PifrT+I+C94J9Urq6tX2jJdMbwv/6NzxH5Vg2uNdXU10xeUPvWYm9TXVpLowj2atvaij9a6uq0ZssNz4j/ANaLhvhaurqXkrwYmJ/xDWhgdj/Sv/kamurN9mkPhZa99+tBfh4Cprq1MT//2Q==" alt="">
+                </div>
+                <div class="frappucino-coffees-body">
+                    <h2>Frappucino Coffees</h2>
+                    <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat!</label>
+                </div>
+            </div>
+    </div>
+</div>
+	</div>
+	<div class="aboutus" id="aboutus">
+		<div class="aboutus-header">
+            <h3>About us</h3>
+            <h4>Khanka Coffee Open</h4>
+        </div>
+		<div class="main-zuil">
+		<div class="background-us">
+			<img src="https://static.wixstatic.com/media/ea26fd_bd1a915b88a845e3b8a283e40107b420~mv2_d_6480_4320_s_4_2.jpg/v1/crop/x_210,y_460,w_4090,h_3150/fill/w_511,h_394,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea26fd_bd1a915b88a845e3b8a283e40107b420~mv2_d_6480_4320_s_4_2.jpg">
+		</div>
+		<div class="background-is">
+			<img src="https://static.wixstatic.com/media/ea26fd_1068088a9c1f4bed9ece2e00f51e5581~mv2_d_3764_2509_s_4_2.jpg/v1/fill/w_513,h_394,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea26fd_1068088a9c1f4bed9ece2e00f51e5581~mv2_d_3764_2509_s_4_2.jpg">
+		</div>
+		<div class="background-os">
+			<label>The concept of our cafe came about from the idea of not creating fusion beverages but to bring the original taste of popular "desi" tea to the UK. Founded in 2019, Cafe Green Leaf has only kept growing while achieving a strong customer base who regularly get a tea on the go.Our concept revolves around providing beverages and snacks which are popular in the Indian Sub continent. From samosas to Bangladeshi desserts, Cafe Green leaf continues to attract many different pallets. </label>
+		</div>
+		<div class="background-as">
+			<label>Taste and See Coffee Shop and Gallery offers a unique coffee house environment unlike any other in Macon. We are not only a place to drop in and get your morning cup of coffee (although you are more than welcome to do that), we are a place where you can sit down and enjoy that tailor-made cup of coffee. If you need to work, we have a seating area created specifically for you. If you need to rest, we have a soft-seating area in front of a stone fire place that is perfect for your weary mind and body. We offer a delicious variety of coffee roasted in house made by our professionally trained baristas.</label>
+		</div>
+		</div>
+	</div>
+    <div class="shop" id="shop">
+        <div class="shop-header">
+            <h3>Shop</h3>
+            <h4>Khanka Coffee Drinks</h4>
+        </div>
+        <div class="shop-box">
+            <div class="item-1" data-aos="fade-up"
+     data-aos-duration="3000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_9611_25311.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">4.45$</label>
+                        <h3>Caramel Macchiato</h3>
+                        <label>A caramel macchiato is made by mixing coffee with a little bit of vanilla syrup, while a caramel latte only uses caramel sauce as a sweetener.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-2" data-aos="fade-up"
+     data-aos-duration="3000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://savortheflavour.com/wp-content/uploads/2022/08/Flat-White-Finals-1200.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">3.75$</label>
+                        <h3>Flat White</h3>
+                        <label>A flat white is a blend of micro-foamed milk poured over a single or double of espresso.Flat white is stronger to its coffee-milk proportion.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-3" data-aos="fade-up"
+     data-aos-duration="3000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://lemonsandzest.com/wp-content/uploads/2021/01/Mocha-Frappuccino-11.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">3.95$</label>
+                        <h3>Chocolate Frappucino</h3>
+                        <label>It's a frozen chocolate frappe (which is just ice blended with milk to make a slush) full of chocolate syrup and mini chocolate chips.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-4" data-aos="fade-up"
+     data-aos-duration="3000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://www.thehungrybites.com/wp-content/uploads/2023/06/coffee-ice-cream-frappe-frappuccino-feat.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">2.79$</label>
+                        <h3>Frappe</h3>
+                        <label>It is used to generate database tables, design forms and configure a lot of features. Meta-data is stored in a Model which is known as DocType in Frappe.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-5" data-aos="fade-up"
+     data-aos-duration="3000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://imhungryforthat.com/wp-content/uploads/2022/10/cafe-mocha.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">3.45$</label>
+                        <h3>Caffe Mocha</h3>
+                        <label>Caffè mocha, in its most basic formulation, can also be referred to as hot chocolate with (e.g., a shot of) espresso added. Like cappuccino.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-6" data-aos="fade-up"
+     data-aos-duration="3000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://i1.wp.com/www.foodlovinfamily.com/wp-content/uploads/2020/06/vanilla-bean-frappuccino-main-716x1024.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">3.25$</label>
+                        <h3>Vanilla Frappucino</h3>
+                        <label>According to Menu, the ingredients include ice, milk, cream frappuccino, vanilla syrup, vanilla bean powder and whipped cream. </label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-7" data-aos="fade-up"
+     data-aos-duration="3000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://bakingmischief.com/wp-content/uploads/2018/04/homemade-white-chocolate-mocha-image-square.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">6.60$</label>
+                        <h3>White Chocolate Mocha</h3>
+                        <label>A white chocolate, steamed milk and espresso,topped with whipped cream, our white chocolate mocha is a tall glass of creamy deliciousness.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-8" data-aos="fade-up"
+     data-aos-duration="3000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://snacksandsips.com/wp-content/uploads/2021/05/02-Iced-Latte.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">5.65$</label>
+                        <h3>Ice Latte</h3>
+                        <label>The iced latte is the cold relative of the traditional latte and is made up of ice, a shot of espresso and cold milk.Part of the iced latte.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	 <div class="contact" id="contact">
+        <div class="contact-box" data-aos="fade-right">
+            <div class="contact-image">
+                <img src="https://blog-assets.lightspeedhq.com/img/2021/03/5f04c4b3-blog_coffee-shop-equipment-list_800x500-01.jpg">
+            </div>
+        </div>
+        <div class="contact-box">
+            <div class="contact-body">
+                <form>
+                    <h2>Contact Us</h2>
+                    <div class="form-content">
+                        <input type="text" required>
+                        <span></span>
+                        <label>Username</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="email" required>
+                        <span></span>
+                        <label>Email</label>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <label>Copyright &copy; 2023</label>
+            </div>
+            <div class="brand">
+                <label>Khanka <span>Coffee</span></label>
+            </div>
+        </div>
+    </div>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
+</body>
+
+</html>
